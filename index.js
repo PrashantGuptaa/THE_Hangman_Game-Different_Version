@@ -67,7 +67,7 @@ hide.style.opacity = '0.5';
     }
     if (count === word.length) {
    //  alert("You win");
-      congo.innerHTML = 'COGRATULATION, YOU SAVED '+lives+' PUPPIES';
+      congo.innerHTML = 'CONGRATS, YOU SAVED '+lives+' PUPPIES';
       modal.style.display = "block";
       confetti.start();
             gameover = true;
